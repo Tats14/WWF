@@ -1,0 +1,639 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: white;
+	font-family: Arial, Helvetica, Tahoma ;
+	
+}
+
+.contenedor {
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 1280x;
+	position: relative;
+}
+.menu1{
+	cursor: pointer;
+}
+
+.menu1 a:hover{
+	text-decoration: none;
+	text-align: center;
+	margin: 0 10px 0 0;
+	color: gray;
+}
+
+.menu1 a{
+	text-decoration: none;
+	color: white;
+}
+
+.left{float:left;}
+.Inicio {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  left: 249px;
+  top: 9px;
+  z-index: 18;
+}
+
+
+.¿Quienes__Somos_ {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  left: 319px;
+  top: 19px;
+  z-index: 14;
+}
+
+.¿Que__Hacer_por_el_Planeta_ {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  left: 413px;
+  top: 4px;
+  z-index: 15;
+}
+
+.Nuestra_Tierra {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  left: 639px;
+  top:19px;
+  z-index: 17;
+}
+
+.Historias_y_Noticias {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  left: 541px;
+  top: 9px;
+  z-index: 16;
+}
+
+.fotter {
+	background-color: black;
+	position: absolute;
+	left: 2px;
+	top: 1089px;
+	width: 966px;
+	height: 197px;
+	z-index: 10;
+}
+.menu {
+	background-color: black;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 959px;
+	height: 74px;
+	z-index: 31;
+}
+.WWF_logo_svg {
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	width: auto;
+	height: 122px;
+	z-index: 35;
+}
+.instagramlogo {
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  width: 30px;
+  height: 30px;
+  z-index: 34;
+}
+.Twitter_logo_blue {
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	width: 31px;
+	height: 26px;
+	z-index: 200;
+}
+.facebook_logo {
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	width: 27px;
+	height: 27px;
+	z-index: 201;
+}
+.Inicio {
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb( 255, 255, 255 );
+	word-wrap: break-word;
+	line-height: 1.286;
+	text-align: center;
+	position: absolute;
+	left: 215px;
+	top: 10px;
+	z-index: 205;
+	font-weight: bold;
+}
+.QuienesSomos {
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	line-height: 1.286;
+	word-wrap: break-word;
+	text-align: center;
+	position: absolute;
+	left: 280px;
+	top: 0px;
+	z-index: 205;
+	white-space: normal;
+	display: inline-block;
+}
+.¿Que__Hacer_por_el_Planeta_ {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.286;
+  text-align: center;
+  position: absolute;
+  left: 411px;
+  top: 37.989px;
+  z-index: 100;
+}
+.Historias__y_Noticias {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.286;
+  text-align: center;
+  position: absolute;
+  left: 530px;
+  top: 37.989px;
+  z-index: 39;
+}
+.Nuestra_Tierra_ {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.286;
+  text-align: center;
+  position: absolute;
+  left: 641px;
+  top: 37.989px;
+  z-index: 100;
+}
+.¿QueHacerporelPlaneta {
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	line-height: 1.286;
+	text-align: center;
+	position: absolute;
+	left: 391px;
+	top: 0px;
+	z-index: 205;
+}
+.HistoriasyNoticias {
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	line-height: 1.286;
+	text-align: center;
+	position: absolute;
+	left: 540px;
+	top: 0px;
+	z-index: 205;
+}
+.NuestraTierra {
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb( 254, 254, 254 );
+	font-weight: bold;
+	line-height: 1.286;
+	text-align: center;
+	position: absolute;
+	left: 640px;
+	top: 0px;
+	z-index: 205;
+}
+
+.recuadro2 {
+  background-color: #d1edfb;
+  position: absolute;
+  left: 652px;
+  top: 691px;
+  width: 277px;
+  height: 113px;
+  z-index: 30;
+}
+.recuadro1 {
+  background-color: #d1edfb;
+  position: absolute;
+  left: 652px;
+  top: 808px;
+  width: 277px;
+  height: 109px;
+  z-index: 30;
+}
+.recuadro3 {
+  background-color: #d1edfb;
+  position: absolute;
+  left: 652px;
+  top: 921px;
+  width: 277px;
+  height: 110px;
+  z-index: 30;
+}
+.giant_pandas {
+	background-image: url("images/giant_pandas.png");
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	width: 243px;
+	height: 340px;
+	z-index: 8;
+}
+.parrafo1 {
+  font-size: 8px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  line-height: 1.286;
+  text-align: justify;
+  position: absolute;
+  left: 319px;
+  top: 680px;
+  width: 273px;
+  height: 83px;
+  z-index: 38;
+  }
+  .parrafo2 {
+  font-size: 8px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 1.5;
+  text-align: justify;
+  position: absolute;
+  left: 320px;
+  top: 850px;
+  width: 273px;
+  height: 138px;
+  z-index: 39;
+}
+.Mision {
+  font-size: 30px;
+  font-family: "Arial";
+  color: rgb( 6, 23, 71 );
+  font-weight: bold;
+  line-height: 0.6;
+  text-align: justifyLeft;
+  position: absolute;
+  left: 319px;
+  top: 780px;
+  z-index: 40;
+}
+.tigre {
+  position: absolute;
+  left: 0px;
+  top: -4px;
+  width: 129px;
+  height: 97px;
+  z-index: 50;
+}
+.tigretexto {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  text-align: center;
+  -moz-transform: scale(0.97, 1);
+  -webkit-transform: scale(0.97, 1);
+  -ms-transform: scale(0.97, 1);
+  position: absolute;
+  left: 795.824px;
+  top: 705.258px;
+  z-index: 49;
+}
+.ballena {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 129px;
+  height: 97px;
+  z-index: 43;
+}
+.textoballena {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  text-align: center;
+  -moz-transform: scale(0.97, 1);
+  -webkit-transform: scale(0.97, 1);
+  -ms-transform: scale(0.97, 1);
+  position: absolute;
+  left: 814.366px;
+  top: 807.458px;
+  z-index: 50;
+}
+.volunteer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 126px;
+  height: 94px;
+  z-index: 42;
+}
+.textovolunteer {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  text-align: center;
+  -moz-transform: scale(0.97, 1);
+  -webkit-transform: scale(0.97, 1);
+  -ms-transform: scale(0.97, 1);
+  position: absolute;
+  left: 793.824px;
+  top: 930px;
+  z-index: 49;
+}
+
+/* fotter */
+
+.Que__hacer_por_el_Planeta {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 257.374px;
+  top: 1138.273px;
+  z-index: 100;
+}
+
+.Historias__y_Noticias {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 506.277px;
+  top: 1138.273px;
+  z-index: 100;
+}
+.Historia {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+   position: absolute;
+  left: 111.944px;
+  top: 1174.273px;
+  z-index: 100;
+}
+.Contatos {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 107.065px;
+  top: 1205px;
+  z-index: 100;
+}
+.Vida_verde {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 313.552px;
+  top: 1174.273px;
+  z-index: 100;
+}
+.Voluntariado {
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb( 254, 254, 254 );
+	font-weight: bold;
+	line-height: 1.125;
+	text-align: center;
+	position: absolute;
+	left: 305.593px;
+	top: 1205.273px;
+	z-index: 205;
+}
+.Donar_a_WWF {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 302.291px;
+  top: 1237.273px;
+  z-index: 100;
+}
+.Historias {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 540.535px;
+  top: 1174.273px;
+  z-index: 100;
+}
+.Noticias {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 543.608px;
+  top: 1205.273px;
+  z-index: 100;
+}
+.Videos {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 547.626px;
+  top: 1236.273px;
+  z-index: 100;
+}
+.Suscribir_por_email {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 501.974px;
+  top: 1267.273px;
+  z-index: 100;
+}
+.Oceanos {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 745.896px;
+  top: 1267.273px;
+  z-index: 100;
+}
+.Especies_en_peligro_critico {
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb( 254, 254, 254 );
+	font-weight: bold;
+	line-height: 1.125;
+	text-align: center;
+	position: absolute;
+	left: 685.555px;
+	top: 1174.273px;
+	z-index: 205;
+}
+.Clima {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 755.324px;
+  top: 1205.273px;
+  z-index: 100;
+}
+.Bosques {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 746.404px;
+  top: 1237.273px;
+  z-index: 100;
+}
+.Nuestra_Tierra_ {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 254, 254, 254 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 725.868px;
+  top: 1138.273px;
+  z-index: 100;
+}
+.¿Quienes_somos_ {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+  position: absolute;
+  left: 73.099px;
+  top: 1137.273px;
+  z-index: 100;
+}
+.linea {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: -30px;
+  top: 570px;
+  width: 1086px;
+  height: 5px;
+  z-index: 8;
+}
+.lineab {
+  background-color: white;
+  position: absolute;
+  left: 49px;
+  top: 1116px;
+  width: 859px;
+  height: 2px;
+  z-index: 40;
+}
+.contenedor #boton {
+	height: 60px;
+	width: 68px;
+	position: absolute;
+	visibility: visible;
+	z-index: 50;
+	left: 205px;
+	top: 5px;
+}
+.menud {
+	background-color: black;
+	position: absolute;
+	left: 105px;
+	top: -5px;
+	width: 960px;
+	height: 111px;
+	z-index: 32;
+}
+.boton {
+}
+.contenedor #boton {
+	z-index: 200;
+}
